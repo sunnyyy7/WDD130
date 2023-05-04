@@ -9,7 +9,7 @@ Fonts are separated by a & */
   --primary-color: #dbb1bc   ;
   --secondary-color: #d3c4e3 ;
   --accent1-color: #8f95d3;
-  --accent2-color: white;
+  --accent2-color: #89daff;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Roboto", sans-serif;
