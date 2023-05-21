@@ -27,6 +27,10 @@
 
 body {
     background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 #content {
@@ -36,6 +40,7 @@ body {
 
 header{
     background-color: #89daff;
+    font-size: 30px;
 }
 
 .logo, .icon{
@@ -47,6 +52,8 @@ nav a {
 text-align: center;
 color: var(--nav-link-color);
 text-decoration: none;
+font-size: 40px;
+padding: 30px;
 }
 
 nav a:hover{
@@ -69,13 +76,25 @@ text-align: center;
 
 .button-box{
 text-align: center;
+font-size: 50px;
 }
 
 .book, .join{
     color: var(--accent1-color);
     background-color: var(--nav-background-color);
     text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 30px
 }
+
+.card-img {
+    border: 10px solid #a3b4d9;
+}
+main section img {
+    box-sizing: border-box;
+}
+
 .book:hover, .join:hover{
     background-color: var(--nav-hover-background-color);
 }
@@ -91,7 +110,7 @@ text-align: center;
 
 .msg {
 background-color: var(--accent1-color);
-
+line-height: 1em;
 }
 
 .msg h2{
@@ -106,6 +125,7 @@ text-decoration: var(--nav-hover-background-color);
 footer a{
     color:white;
     text-decoration: none;
+    font-size: 1.2em
 }
 
 footer p {
